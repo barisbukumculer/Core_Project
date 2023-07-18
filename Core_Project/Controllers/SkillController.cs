@@ -48,9 +48,7 @@ namespace Core_Project.Controllers
         [HttpPost]
         public IActionResult UpdateSkill(Skill skill)
         {
-            ViewBag.v1 = "Yetenek Güncelleme";
-            ViewBag.v2 = "Yetenekler";
-            ViewBag.v3 = "Yetenek Güncelleme";
+          
             skillManager.TUpdate(skill);
             return RedirectToAction("Index");
         }
