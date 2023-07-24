@@ -61,7 +61,6 @@
   <ItemGroup>
     <Folder Include="ViewComponents\Message\" />
     <Folder Include="ViewComponents\SocialMedia\" />
-    <Folder Include="Views\Shared\Components\MessageList\" />
     <Folder Include="Views\Shared\Components\SocialMediaList\" />
   </ItemGroup>
 
